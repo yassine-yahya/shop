@@ -1,22 +1,52 @@
+
+
 .product {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     margin: 50px;
-    box-shadow: 1px 1px 2px 10px solid grey;
+    padding: 5px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+
+  
     
 
 }
+.products {
+    background-image: linear-gradient(to right, #ff8a00, #da1b60);
+
+}
 .product img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
     
+}
+.product button {
+    background-color: black;
+    margin: 10px;
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    height: 40px ;
+    border: none;
+}
+.product button:hover {
+    background-color: rgb(1, 65, 11);
 }
 
 .products {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
+}
+.titleshop h3{
+    margin: auto;
+    
+    
 }

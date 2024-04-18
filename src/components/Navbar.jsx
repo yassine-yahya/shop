@@ -6,10 +6,11 @@ import './Navbar.css'
 export const Navbar = () => {
 return (
 <div className='navbar'>
+<h3>YAHYA SHOP</h3>
 
 <div className='links'>
 
-<Link to='/'> Shop </Link>
+<Link to='/'> <button>Shop</button> </Link>
 
 <Link to='/cart'> 
 <ShoppingCart size={32}/>

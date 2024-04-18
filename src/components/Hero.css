@@ -1,0 +1,9 @@
+.hero {
+    height: 70px;
+    width: auto;
+    background-image: linear-gradient(to right, #fa9c30, #f30e62);
+    
+}
+.hero h2 {
+    padding: 15px;
+}
